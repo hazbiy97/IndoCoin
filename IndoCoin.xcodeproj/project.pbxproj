@@ -1,0 +1,606 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		62A7C16120E6508C00E3644D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62A7C16020E6508C00E3644D /* AppDelegate.swift */; };
+		62A7C16320E6508C00E3644D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62A7C16220E6508C00E3644D /* ViewController.swift */; };
+		62A7C16620E6508C00E3644D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 62A7C16420E6508C00E3644D /* Main.storyboard */; };
+		62A7C16920E6508C00E3644D /* IndoCoin.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 62A7C16720E6508C00E3644D /* IndoCoin.xcdatamodeld */; };
+		62A7C16B20E6508F00E3644D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 62A7C16A20E6508F00E3644D /* Assets.xcassets */; };
+		62A7C16E20E6508F00E3644D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 62A7C16C20E6508F00E3644D /* LaunchScreen.storyboard */; };
+		62A7C17920E6508F00E3644D /* IndoCoinTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62A7C17820E6508F00E3644D /* IndoCoinTests.swift */; };
+		62A7C18420E6508F00E3644D /* IndoCoinUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62A7C18320E6508F00E3644D /* IndoCoinUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		62A7C17520E6508F00E3644D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 62A7C15520E6508C00E3644D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 62A7C15C20E6508C00E3644D;
+			remoteInfo = IndoCoin;
+		};
+		62A7C18020E6508F00E3644D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 62A7C15520E6508C00E3644D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 62A7C15C20E6508C00E3644D;
+			remoteInfo = IndoCoin;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		62A7C15D20E6508C00E3644D /* IndoCoin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IndoCoin.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		62A7C16020E6508C00E3644D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		62A7C16220E6508C00E3644D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		62A7C16520E6508C00E3644D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		62A7C16820E6508C00E3644D /* IndoCoin.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = IndoCoin.xcdatamodel; sourceTree = "<group>"; };
+		62A7C16A20E6508F00E3644D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		62A7C16D20E6508F00E3644D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		62A7C16F20E6508F00E3644D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		62A7C17420E6508F00E3644D /* IndoCoinTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IndoCoinTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		62A7C17820E6508F00E3644D /* IndoCoinTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IndoCoinTests.swift; sourceTree = "<group>"; };
+		62A7C17A20E6508F00E3644D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		62A7C17F20E6508F00E3644D /* IndoCoinUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IndoCoinUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		62A7C18320E6508F00E3644D /* IndoCoinUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IndoCoinUITests.swift; sourceTree = "<group>"; };
+		62A7C18520E6508F00E3644D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		62A7C15A20E6508C00E3644D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62A7C17120E6508F00E3644D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62A7C17C20E6508F00E3644D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		62A7C15420E6508C00E3644D = {
+			isa = PBXGroup;
+			children = (
+				62A7C15F20E6508C00E3644D /* IndoCoin */,
+				62A7C17720E6508F00E3644D /* IndoCoinTests */,
+				62A7C18220E6508F00E3644D /* IndoCoinUITests */,
+				62A7C15E20E6508C00E3644D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		62A7C15E20E6508C00E3644D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				62A7C15D20E6508C00E3644D /* IndoCoin.app */,
+				62A7C17420E6508F00E3644D /* IndoCoinTests.xctest */,
+				62A7C17F20E6508F00E3644D /* IndoCoinUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		62A7C15F20E6508C00E3644D /* IndoCoin */ = {
+			isa = PBXGroup;
+			children = (
+				62A7C16020E6508C00E3644D /* AppDelegate.swift */,
+				62A7C16220E6508C00E3644D /* ViewController.swift */,
+				62A7C16420E6508C00E3644D /* Main.storyboard */,
+				62A7C16A20E6508F00E3644D /* Assets.xcassets */,
+				62A7C16C20E6508F00E3644D /* LaunchScreen.storyboard */,
+				62A7C16F20E6508F00E3644D /* Info.plist */,
+				62A7C16720E6508C00E3644D /* IndoCoin.xcdatamodeld */,
+			);
+			path = IndoCoin;
+			sourceTree = "<group>";
+		};
+		62A7C17720E6508F00E3644D /* IndoCoinTests */ = {
+			isa = PBXGroup;
+			children = (
+				62A7C17820E6508F00E3644D /* IndoCoinTests.swift */,
+				62A7C17A20E6508F00E3644D /* Info.plist */,
+			);
+			path = IndoCoinTests;
+			sourceTree = "<group>";
+		};
+		62A7C18220E6508F00E3644D /* IndoCoinUITests */ = {
+			isa = PBXGroup;
+			children = (
+				62A7C18320E6508F00E3644D /* IndoCoinUITests.swift */,
+				62A7C18520E6508F00E3644D /* Info.plist */,
+			);
+			path = IndoCoinUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		62A7C15C20E6508C00E3644D /* IndoCoin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 62A7C18820E6508F00E3644D /* Build configuration list for PBXNativeTarget "IndoCoin" */;
+			buildPhases = (
+				62A7C15920E6508C00E3644D /* Sources */,
+				62A7C15A20E6508C00E3644D /* Frameworks */,
+				62A7C15B20E6508C00E3644D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IndoCoin;
+			productName = IndoCoin;
+			productReference = 62A7C15D20E6508C00E3644D /* IndoCoin.app */;
+			productType = "com.apple.product-type.application";
+		};
+		62A7C17320E6508F00E3644D /* IndoCoinTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 62A7C18B20E6508F00E3644D /* Build configuration list for PBXNativeTarget "IndoCoinTests" */;
+			buildPhases = (
+				62A7C17020E6508F00E3644D /* Sources */,
+				62A7C17120E6508F00E3644D /* Frameworks */,
+				62A7C17220E6508F00E3644D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				62A7C17620E6508F00E3644D /* PBXTargetDependency */,
+			);
+			name = IndoCoinTests;
+			productName = IndoCoinTests;
+			productReference = 62A7C17420E6508F00E3644D /* IndoCoinTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		62A7C17E20E6508F00E3644D /* IndoCoinUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 62A7C18E20E6508F00E3644D /* Build configuration list for PBXNativeTarget "IndoCoinUITests" */;
+			buildPhases = (
+				62A7C17B20E6508F00E3644D /* Sources */,
+				62A7C17C20E6508F00E3644D /* Frameworks */,
+				62A7C17D20E6508F00E3644D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				62A7C18120E6508F00E3644D /* PBXTargetDependency */,
+			);
+			name = IndoCoinUITests;
+			productName = IndoCoinUITests;
+			productReference = 62A7C17F20E6508F00E3644D /* IndoCoinUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		62A7C15520E6508C00E3644D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Nur  Hazbiy";
+				TargetAttributes = {
+					62A7C15C20E6508C00E3644D = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					62A7C17320E6508F00E3644D = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 62A7C15C20E6508C00E3644D;
+					};
+					62A7C17E20E6508F00E3644D = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 62A7C15C20E6508C00E3644D;
+					};
+				};
+			};
+			buildConfigurationList = 62A7C15820E6508C00E3644D /* Build configuration list for PBXProject "IndoCoin" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 62A7C15420E6508C00E3644D;
+			productRefGroup = 62A7C15E20E6508C00E3644D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				62A7C15C20E6508C00E3644D /* IndoCoin */,
+				62A7C17320E6508F00E3644D /* IndoCoinTests */,
+				62A7C17E20E6508F00E3644D /* IndoCoinUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		62A7C15B20E6508C00E3644D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62A7C16E20E6508F00E3644D /* LaunchScreen.storyboard in Resources */,
+				62A7C16B20E6508F00E3644D /* Assets.xcassets in Resources */,
+				62A7C16620E6508C00E3644D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62A7C17220E6508F00E3644D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62A7C17D20E6508F00E3644D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		62A7C15920E6508C00E3644D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62A7C16320E6508C00E3644D /* ViewController.swift in Sources */,
+				62A7C16920E6508C00E3644D /* IndoCoin.xcdatamodeld in Sources */,
+				62A7C16120E6508C00E3644D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62A7C17020E6508F00E3644D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62A7C17920E6508F00E3644D /* IndoCoinTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62A7C17B20E6508F00E3644D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62A7C18420E6508F00E3644D /* IndoCoinUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		62A7C17620E6508F00E3644D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 62A7C15C20E6508C00E3644D /* IndoCoin */;
+			targetProxy = 62A7C17520E6508F00E3644D /* PBXContainerItemProxy */;
+		};
+		62A7C18120E6508F00E3644D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 62A7C15C20E6508C00E3644D /* IndoCoin */;
+			targetProxy = 62A7C18020E6508F00E3644D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		62A7C16420E6508C00E3644D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				62A7C16520E6508C00E3644D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		62A7C16C20E6508F00E3644D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				62A7C16D20E6508F00E3644D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		62A7C18620E6508F00E3644D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		62A7C18720E6508F00E3644D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		62A7C18920E6508F00E3644D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZWA4WJW9E5;
+				INFOPLIST_FILE = IndoCoin/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Nems.IndoCoin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		62A7C18A20E6508F00E3644D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZWA4WJW9E5;
+				INFOPLIST_FILE = IndoCoin/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Nems.IndoCoin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		62A7C18C20E6508F00E3644D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZWA4WJW9E5;
+				INFOPLIST_FILE = IndoCoinTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Nems.IndoCoinTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IndoCoin.app/IndoCoin";
+			};
+			name = Debug;
+		};
+		62A7C18D20E6508F00E3644D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZWA4WJW9E5;
+				INFOPLIST_FILE = IndoCoinTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Nems.IndoCoinTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IndoCoin.app/IndoCoin";
+			};
+			name = Release;
+		};
+		62A7C18F20E6508F00E3644D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZWA4WJW9E5;
+				INFOPLIST_FILE = IndoCoinUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Nems.IndoCoinUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = IndoCoin;
+			};
+			name = Debug;
+		};
+		62A7C19020E6508F00E3644D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZWA4WJW9E5;
+				INFOPLIST_FILE = IndoCoinUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Nems.IndoCoinUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = IndoCoin;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		62A7C15820E6508C00E3644D /* Build configuration list for PBXProject "IndoCoin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				62A7C18620E6508F00E3644D /* Debug */,
+				62A7C18720E6508F00E3644D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		62A7C18820E6508F00E3644D /* Build configuration list for PBXNativeTarget "IndoCoin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				62A7C18920E6508F00E3644D /* Debug */,
+				62A7C18A20E6508F00E3644D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		62A7C18B20E6508F00E3644D /* Build configuration list for PBXNativeTarget "IndoCoinTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				62A7C18C20E6508F00E3644D /* Debug */,
+				62A7C18D20E6508F00E3644D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		62A7C18E20E6508F00E3644D /* Build configuration list for PBXNativeTarget "IndoCoinUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				62A7C18F20E6508F00E3644D /* Debug */,
+				62A7C19020E6508F00E3644D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		62A7C16720E6508C00E3644D /* IndoCoin.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				62A7C16820E6508C00E3644D /* IndoCoin.xcdatamodel */,
+			);
+			currentVersion = 62A7C16820E6508C00E3644D /* IndoCoin.xcdatamodel */;
+			path = IndoCoin.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 62A7C15520E6508C00E3644D /* Project object */;
+}
