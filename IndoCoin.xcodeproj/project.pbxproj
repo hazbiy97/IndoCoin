@@ -8,13 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		62A7C16120E6508C00E3644D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62A7C16020E6508C00E3644D /* AppDelegate.swift */; };
-		62A7C16320E6508C00E3644D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62A7C16220E6508C00E3644D /* ViewController.swift */; };
 		62A7C16620E6508C00E3644D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 62A7C16420E6508C00E3644D /* Main.storyboard */; };
 		62A7C16920E6508C00E3644D /* IndoCoin.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 62A7C16720E6508C00E3644D /* IndoCoin.xcdatamodeld */; };
 		62A7C16B20E6508F00E3644D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 62A7C16A20E6508F00E3644D /* Assets.xcassets */; };
 		62A7C16E20E6508F00E3644D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 62A7C16C20E6508F00E3644D /* LaunchScreen.storyboard */; };
 		62A7C17920E6508F00E3644D /* IndoCoinTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62A7C17820E6508F00E3644D /* IndoCoinTests.swift */; };
 		62A7C18420E6508F00E3644D /* IndoCoinUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62A7C18320E6508F00E3644D /* IndoCoinUITests.swift */; };
+		62FC6D3D20E8084C007E8E5E /* MarketListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62FC6D3C20E8084C007E8E5E /* MarketListTableViewController.swift */; };
+		62FC6D3F20E80BC5007E8E5E /* MarketListCustTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62FC6D3E20E80BC5007E8E5E /* MarketListCustTableViewCell.swift */; };
+		62FC6D4120E8CB6C007E8E5E /* Datas.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62FC6D4020E8CB6C007E8E5E /* Datas.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +39,6 @@
 /* Begin PBXFileReference section */
 		62A7C15D20E6508C00E3644D /* IndoCoin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IndoCoin.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		62A7C16020E6508C00E3644D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		62A7C16220E6508C00E3644D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		62A7C16520E6508C00E3644D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		62A7C16820E6508C00E3644D /* IndoCoin.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = IndoCoin.xcdatamodel; sourceTree = "<group>"; };
 		62A7C16A20E6508F00E3644D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -49,6 +50,9 @@
 		62A7C17F20E6508F00E3644D /* IndoCoinUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IndoCoinUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		62A7C18320E6508F00E3644D /* IndoCoinUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IndoCoinUITests.swift; sourceTree = "<group>"; };
 		62A7C18520E6508F00E3644D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		62FC6D3C20E8084C007E8E5E /* MarketListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarketListTableViewController.swift; sourceTree = "<group>"; };
+		62FC6D3E20E80BC5007E8E5E /* MarketListCustTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarketListCustTableViewCell.swift; sourceTree = "<group>"; };
+		62FC6D4020E8CB6C007E8E5E /* Datas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Datas.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +80,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		622E3C0020E6585E00EF56B8 /* Market */ = {
+			isa = PBXGroup;
+			children = (
+				62FC6D3E20E80BC5007E8E5E /* MarketListCustTableViewCell.swift */,
+			);
+			path = Market;
+			sourceTree = "<group>";
+		};
 		62A7C15420E6508C00E3644D = {
 			isa = PBXGroup;
 			children = (
@@ -100,7 +112,9 @@
 			isa = PBXGroup;
 			children = (
 				62A7C16020E6508C00E3644D /* AppDelegate.swift */,
-				62A7C16220E6508C00E3644D /* ViewController.swift */,
+				62FC6D4420E8EE50007E8E5E /* Views */,
+				62FC6D4520E95EBE007E8E5E /* Controller */,
+				62FC6D4320E8EE49007E8E5E /* Model */,
 				62A7C16420E6508C00E3644D /* Main.storyboard */,
 				62A7C16A20E6508F00E3644D /* Assets.xcassets */,
 				62A7C16C20E6508F00E3644D /* LaunchScreen.storyboard */,
@@ -126,6 +140,38 @@
 				62A7C18520E6508F00E3644D /* Info.plist */,
 			);
 			path = IndoCoinUITests;
+			sourceTree = "<group>";
+		};
+		62FC6D4320E8EE49007E8E5E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				62FC6D4020E8CB6C007E8E5E /* Datas.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		62FC6D4420E8EE50007E8E5E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				622E3C0020E6585E00EF56B8 /* Market */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		62FC6D4520E95EBE007E8E5E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				62FC6D4620E95EFD007E8E5E /* Market */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		62FC6D4620E95EFD007E8E5E /* Market */ = {
+			isa = PBXGroup;
+			children = (
+				62FC6D3C20E8084C007E8E5E /* MarketListTableViewController.swift */,
+			);
+			path = Market;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,7 +305,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				62A7C16320E6508C00E3644D /* ViewController.swift in Sources */,
+				62FC6D4120E8CB6C007E8E5E /* Datas.swift in Sources */,
+				62FC6D3F20E80BC5007E8E5E /* MarketListCustTableViewCell.swift in Sources */,
+				62FC6D3D20E8084C007E8E5E /* MarketListTableViewController.swift in Sources */,
 				62A7C16920E6508C00E3644D /* IndoCoin.xcdatamodeld in Sources */,
 				62A7C16120E6508C00E3644D /* AppDelegate.swift in Sources */,
 			);
@@ -437,6 +485,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = ZWA4WJW9E5;
 				INFOPLIST_FILE = IndoCoin/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -455,6 +504,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = ZWA4WJW9E5;
 				INFOPLIST_FILE = IndoCoin/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
