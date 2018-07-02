@@ -21,7 +21,7 @@ struct CoinData: Decodable {
 
 struct Summary:Decodable{
     struct Tickers:Decodable{
-        var test:[CoinData]
+        var coinDatas:[CoinData]
         
         // MARK: Decodable
         
@@ -39,23 +39,23 @@ struct Summary:Decodable{
         // MARK: Decoder (custom)
         public init(from decoder: Decoder) throws {
             let container = try decoder.container(keyedBy: CodingKeys.self)
-            test = [CoinData]()
+            coinDatas = [CoinData]()
             let btc_idr = try container.decode(CoinData.self, forKey: .btc_idr)
-            test.append(btc_idr)
+            coinDatas.append(btc_idr)
             let act_idr = try container.decode(CoinData.self, forKey: .act_idr)
-            test.append(act_idr)
+            coinDatas.append(act_idr)
             let ada_idr = try container.decode(CoinData.self, forKey: .ada_idr)
-            test.append(ada_idr)
+            coinDatas.append(ada_idr)
             let bcd_idr = try container.decode(CoinData.self, forKey: .bcd_idr)
-            test.append(bcd_idr)
+            coinDatas.append(bcd_idr)
             let bch_idr = try container.decode(CoinData.self, forKey: .bch_idr)
-            test.append(bch_idr)
+            coinDatas.append(bch_idr)
             let btg_idr = try container.decode(CoinData.self, forKey: .btg_idr)
-            test.append(btg_idr)
+            coinDatas.append(btg_idr)
             let eth_idr = try container.decode(CoinData.self, forKey: .eth_idr)
-            test.append(eth_idr)
+            coinDatas.append(eth_idr)
             let etc_idr = try container.decode(CoinData.self, forKey: .etc_idr)
-            test.append(etc_idr)
+            coinDatas.append(etc_idr)
         }
     }
 

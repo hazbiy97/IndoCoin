@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6226F40E20E9C47E0005B5FB /* MarketDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6226F40D20E9C47E0005B5FB /* MarketDetailViewController.swift */; };
 		62A7C16120E6508C00E3644D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62A7C16020E6508C00E3644D /* AppDelegate.swift */; };
 		62A7C16620E6508C00E3644D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 62A7C16420E6508C00E3644D /* Main.storyboard */; };
 		62A7C16920E6508C00E3644D /* IndoCoin.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 62A7C16720E6508C00E3644D /* IndoCoin.xcdatamodeld */; };
@@ -37,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6226F40D20E9C47E0005B5FB /* MarketDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarketDetailViewController.swift; sourceTree = "<group>"; };
 		62A7C15D20E6508C00E3644D /* IndoCoin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IndoCoin.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		62A7C16020E6508C00E3644D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		62A7C16520E6508C00E3644D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -111,12 +113,11 @@
 		62A7C15F20E6508C00E3644D /* IndoCoin */ = {
 			isa = PBXGroup;
 			children = (
-				62A7C16020E6508C00E3644D /* AppDelegate.swift */,
 				62FC6D4420E8EE50007E8E5E /* Views */,
 				62FC6D4520E95EBE007E8E5E /* Controller */,
 				62FC6D4320E8EE49007E8E5E /* Model */,
-				62A7C16420E6508C00E3644D /* Main.storyboard */,
 				62A7C16A20E6508F00E3644D /* Assets.xcassets */,
+				62A7C16020E6508C00E3644D /* AppDelegate.swift */,
 				62A7C16C20E6508F00E3644D /* LaunchScreen.storyboard */,
 				62A7C16F20E6508F00E3644D /* Info.plist */,
 				62A7C16720E6508C00E3644D /* IndoCoin.xcdatamodeld */,
@@ -153,6 +154,7 @@
 		62FC6D4420E8EE50007E8E5E /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				62A7C16420E6508C00E3644D /* Main.storyboard */,
 				622E3C0020E6585E00EF56B8 /* Market */,
 			);
 			path = Views;
@@ -170,6 +172,7 @@
 			isa = PBXGroup;
 			children = (
 				62FC6D3C20E8084C007E8E5E /* MarketListTableViewController.swift */,
+				6226F40D20E9C47E0005B5FB /* MarketDetailViewController.swift */,
 			);
 			path = Market;
 			sourceTree = "<group>";
@@ -305,6 +308,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6226F40E20E9C47E0005B5FB /* MarketDetailViewController.swift in Sources */,
 				62FC6D4120E8CB6C007E8E5E /* Datas.swift in Sources */,
 				62FC6D3F20E80BC5007E8E5E /* MarketListCustTableViewCell.swift in Sources */,
 				62FC6D3D20E8084C007E8E5E /* MarketListTableViewController.swift in Sources */,
